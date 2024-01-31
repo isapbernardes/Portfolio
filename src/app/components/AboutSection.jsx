@@ -41,7 +41,7 @@ const TAB_DATA = [ {
 
 const AboutSection = () => {
 const [tab, setTab] = useState ("skills")
-const [isPending, startTransition] = useTransition();
+const [startTransition] = useTransition();
 const handleTabChange = (id) => {
     startTransition (()=> {
     setTab(id);
@@ -51,7 +51,7 @@ const handleTabChange = (id) => {
   return (
    <section className="text-white">
     <div className="md:grid md:grid-cols-2 gap-8 items center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-      <Image src= "/image/surfing.png" width={500} height={500}/>
+      <Image src= "/image/surfing.png" alt = "principal" width={500} height={500}/>
       <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
         <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
         <p className="text-base lg:text-lg">Hello, Im Isadora, 21 years old, and Im in the final semester of my Information Systems degree. My passion for web development is fueled by a solid experience in HTML, CSS, JavaScript, React, MySQL, Node.js, and Git. Im always striving to improve my skills and explore new technologies to create innovative and efficient solutions</p>
