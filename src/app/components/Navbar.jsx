@@ -1,5 +1,5 @@
 "use client";
-import Link from "next/link";
+import Image from "next/image";
 import React, { useState } from "react";
 import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
@@ -26,8 +26,8 @@ const Navbar = () => {
   return (
     <nav className="fixed mx-auto border border-[#33353F] top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100">
       <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
-      <span class="inline-block p-2 bg-gray-800 rounded-full">
-      <img src="/image/logo.png" alt="Logo" class="w-8 h-auto" />
+      <span className ="inline-block p-2 bg-gray-800 rounded-full">
+      <Image src="/image/logo.png" alt="Logo" class="w-8 h-auto" />
      </span>
 
         <div className="mobile-menu block md:hidden">
