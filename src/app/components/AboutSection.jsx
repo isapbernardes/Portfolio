@@ -54,7 +54,7 @@ const handleTabChange = (id) => {
       <Image src= "/image/surfing.png" width={500} height={500}/>
       <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
         <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
-        <p className="text-base lg:text-lg">Hello, I'm Isadora, 21 years old, and I'm in the final semester of my Information Systems degree. My passion for web development is fueled by a solid experience in HTML, CSS, JavaScript, React, MySQL, Node.js, and Git. I'm always striving to improve my skills and explore new technologies to create innovative and efficient solutions</p>
+        <p className="text-base lg:text-lg">Hello, Im Isadora, 21 years old, and Im in the final semester of my Information Systems degree. My passion for web development is fueled by a solid experience in HTML, CSS, JavaScript, React, MySQL, Node.js, and Git. Im always striving to improve my skills and explore new technologies to create innovative and efficient solutions</p>
         <div className="flex flex-row justify-start mt-8">
             <TabButton
               selectTab={() => handleTabChange("skills")}
