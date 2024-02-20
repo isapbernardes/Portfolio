@@ -12,6 +12,7 @@ const TAB_DATA = [ {
             <li>JavaScript</li>
             <li>React</li>
             <li>MySql</li>
+             <li>GoLang</li>
         </ul>
     )
 },
@@ -33,6 +34,7 @@ const TAB_DATA = [ {
           <li>JavaScript</li>
           <li>React</li> 
            <li>MySql</li>
+           <li>GoLang</li>
          </ul>
     )
 }
